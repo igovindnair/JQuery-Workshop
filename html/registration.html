@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/registration.js"></script>
+    <link rel="stylesheet" href="../css/registration.css">
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <div class="container">
+        <form action="" name="registrationForm" class="reg_form" method="post">
+            <label>First Name : </label>
+            <input type="text" placeholder="First Name" id="firstName" minlength="3" maxlength="11" required><br>
+            <br>
+            <label>Last Name : </label>
+            <input type="text" placeholder="Last Name" id="lastName" minlength="3" maxlength="11" required><br>
+            <br>
+            <label>User Name : </label>
+            <input type="text" placeholder="User Name" id="userName" required><br>
+            <br>
+            <label>Password : </label>
+            <input type="password" placeholder="Password" id="passWord" minlength="6" maxlength="15" required><br>
+            <br>
+            <label>Address : </label>
+            <input type="text" placeholder="Address" id="address" required><br>
+            <br>
+            <label>PIN Code : </label>
+            <input type="number" placeholder="PIN" id="PINCode" required><br>
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>    
+</body>
+</html>

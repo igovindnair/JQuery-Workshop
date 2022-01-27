@@ -1,0 +1,24 @@
+{
+  "db": [
+    {
+      "id": 1,
+      "userName": "govind",
+      "passWord": "g001"
+    },
+    {
+      "id": 2,
+      "userName": "jatin",
+      "passWord": "j002"
+    },
+    {
+      "id": 3,
+      "userName": "param",
+      "passWord": "p003"
+    },
+    {
+      "id": 4,
+      "userName": "ravi",
+      "passWord": "r004"
+    }
+  ]
+}
